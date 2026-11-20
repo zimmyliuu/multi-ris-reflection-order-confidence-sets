@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "When using the data, code or figures, cite this release. Use its version DOI when available, or the versioned release URL."
+type: dataset
+title: "Data and Code for Confidence Sets for Reflection Order From a Multi-RIS Cascade Tensor"
+authors:
+  - family-names: Liu
+    given-names: Ziming
+    affiliation: "BELL Honors College, Nanjing University of Posts and Telecommunications"
+    orcid: "https://orcid.org/0009-0001-3831-7519"
+version: "1.0.0"
+repository-code: "https://github.com/zimmyliuu/multi-ris-reflection-order-confidence-sets"
+url: "https://github.com/zimmyliuu/multi-ris-reflection-order-confidence-sets/releases/tag/v1.0.0"
+license-url: "https://github.com/zimmyliuu/multi-ris-reflection-order-confidence-sets/blob/v1.0.0/LICENSE.txt"

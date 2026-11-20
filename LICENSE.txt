@@ -1,0 +1,17 @@
+Permission to reuse with citation
+
+Copyright 2026 Ziming Liu
+
+You may use, copy, adapt, and redistribute the author's code, simulation data,
+tables and figures in this release provided that you credit Ziming Liu and
+cite this release. Include the citation in the references or credits of any
+publication, presentation, software or dataset that uses these materials.
+When redistributing materials, retain this notice and the citation.
+
+Suggested citation
+Ziming Liu (2026). Data and Code for Confidence Sets for Reflection Order From a Multi-RIS Cascade Tensor.
+Version 1.0.0. https://github.com/zimmyliuu/multi-ris-reflection-order-confidence-sets/releases/tag/v1.0.0
+
+Use the version DOI in the citation when available. This permission applies
+to the author's materials in this release. External dependencies retain their
+own licenses.

@@ -1,0 +1,22 @@
+{
+  "title": "Data and Code for Confidence Sets for Reflection Order From a Multi-RIS Cascade Tensor",
+  "version": "1.0.0",
+  "upload_type": "dataset",
+  "description": "Simulation data, receiver and verification code, and the inputs and outputs for Tables I and II and Figure 1 of the manuscript <em>Confidence Sets for Reflection Order From a Multi-RIS Cascade Tensor</em>. The release includes 10,800 mixed-grid channel trials, 12,000 repeated acquisitions on six fixed channels, and a seven-level perturbation sweep on 600 paired base channels. Reuse requires citation of this version as specified in LICENSE.txt.",
+  "creators": [
+    {
+      "name": "Liu, Ziming",
+      "affiliation": "BELL Honors College, Nanjing University of Posts and Telecommunications",
+      "orcid": "0009-0001-3831-7519"
+    }
+  ],
+  "license": "other-at",
+  "keywords": [
+    "reconfigurable intelligent surfaces",
+    "reflection order",
+    "tensor methods",
+    "confidence sets",
+    "statistical signal processing",
+    "simulation data"
+  ]
+}
