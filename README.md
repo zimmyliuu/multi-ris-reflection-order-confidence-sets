@@ -1,5 +1,7 @@
 # Confidence Sets for Reflection Order From a Multi-RIS Cascade Tensor
 
+**Version 1.0.0 DOI:** [10.5281/zenodo.24392339](https://doi.org/10.5281/zenodo.24392339).
+
 **Ziming Liu** · Research data, simulation code, and figure and table sources for the manuscript of the same title.
 
 This repository reproduces a four-surface experiment that asks which reflection orders fit the coefficient tensor of one isolated cascade. The receiver estimates the tensor from two repeats of a 256-state binary pilot grid and tests 14 pairs of tensor modes. Its output is a subset of the 24 possible surface orders. The data come from numerical simulations of a static complex multilinear channel.
