@@ -1,0 +1,10 @@
+link_regime,total_snr_db,median_target_snr_db,median_weakest_standardized_interaction,pair_missing_family_count,pair_exact_family_count,pair_mean_set_size,pair_conflict_count,global_exact_family_count,global_mean_set_size,forced_correct_label_count,forced_compatible_order_count
+Generic,10,0.8,1.26,0,138,15.77,0,7,22.16,749,749
+Generic,20,10.8,3.94,0,887,2.69,4,351,8.13,1156,1156
+Generic,30,20.8,12.72,0,1164,1.37,16,1052,1.39,1197,1197
+Near rank one,10,-5.3,0.03,0,0,20.40,0,0,23.07,178,178
+Near rank one,20,5.7,0.09,0,1,10.88,1,0,15.86,483,483
+Near rank one,30,15.5,0.26,1,82,4.83,6,4,7.79,712,712
+Rank one,10,-4.7,1.24,0,113,19.84,0,20,22.60,223,455
+Rank one,20,5.6,3.96,1,477,11.19,3,218,16.37,436,861
+Rank one,30,15.4,12.89,0,916,4.88,7,666,7.80,531,1087

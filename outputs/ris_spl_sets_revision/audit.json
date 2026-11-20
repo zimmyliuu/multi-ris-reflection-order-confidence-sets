@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "method": "Direct complex matrix propagation over all 256 control states. Walsh projection and new raw-grid replays. Pair residuals from Gram minors and independent beta-quantile cutoffs. Independent summary reconstruction.",
+  "historical_channels_reconstructed": 10800,
+  "fixed_channels": 6,
+  "fixed_reacquisitions": 12000,
+  "paired_sweep_base_channels": 600,
+  "paired_sweep_acquisitions": 4200,
+  "new_raw_grids_replayed": 32400,
+  "new_noisy_pair_statistics_recomputed": 226800,
+  "max_relative_tensor_error": 2.845028003824911e-14,
+  "max_relative_vhat_error": 9.18168959462144e-16,
+  "inputs": {
+    "fixed.npz": "331415155a9bc9336c840fc7c15c05cd406c1de50422fa2b64d49c67a04fbe14",
+    "original_diagnostics.npz": "e578263e9b68a930d3a34934054dfe314eb0bafeacb3be8dd9137d69132d308f",
+    "sweep.npz": "c4696d9222b1f27f566e547b7e4f6c1d8fab423542cbe81e356dedea23040d6d"
+  },
+  "audit_source_sha256": "966978e07fbbc996313b8a8ec03699b3c4be66f5def73b5b9f60364fdc124760"
+}

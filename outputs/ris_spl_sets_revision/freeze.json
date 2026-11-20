@@ -1,0 +1,11 @@
+{
+  "work/ris_spl_sets_revision/compute.py": "478cb5d133aaaa73e050354ed15aea0462e8b690abdc10e57dd96e4fdc977cef",
+  "work/ris_spl_sets_revision/protocol.md": "9a1b9a1dd89a1f86774697f70fc1edd2dfce9743f11cc067ec1c4ac09a21d91c",
+  "outputs/ris_spl_sets/freeze.json": "f424b0f33b32cc2abce41fecec97d7c53325d0fb2610770ca7a371dba3c73706",
+  "outputs/ris_spl_sets/summary.json": "a20ecb77b9dc167ce8bf727627aa2bdc80f549bc90b7c5bb39d5282f8a322f94",
+  "work/ris_spl_sets/protocol.md": "13df7db044a0c3538ed0f8ccf9cff3c65164398d783f6bad89c74245cbcd088f",
+  "work/ris_spl_sets/receiver.py": "07909008823b9beaf175db2088b5684ebfdc1df570c4010b0e6883ccd34cc262",
+  "work/ris_spl_sets/simulate.py": "4040dddc159da881f46abdbbe44cca0a18c663847ae81a72f5ad135211707f86",
+  "work/ris_allorders/model.py": "5700de8d0152dd6601273f591230d33d34c8508d6cccda4d6977b4be1e4b4711",
+  "work/ris_allorders/core.py": "5bdff20c0795c0d6f8f452968d37515b9f8e37fa1c2b4440bf6c0c9bfdff49fc"
+}

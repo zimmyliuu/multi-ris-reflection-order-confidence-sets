@@ -1,0 +1,536 @@
+{
+  "freeze_sha256": "f424b0f33b32cc2abce41fecec97d7c53325d0fb2610770ca7a371dba3c73706",
+  "evidence_sha256": "92f85950163d80bbfbb314af3bf3716aeb69ca937497e2ff149feef52d35bc9c",
+  "channels": 10800,
+  "axes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "Rx",
+    "Tx"
+  ],
+  "order_labels": [
+    "ABCD",
+    "ABDC",
+    "ACBD",
+    "ACDB",
+    "ADBC",
+    "ADCB",
+    "BACD",
+    "BADC",
+    "BCAD",
+    "BCDA",
+    "BDAC",
+    "BDCA",
+    "CABD",
+    "CADB",
+    "CBAD",
+    "CBDA",
+    "CDAB",
+    "CDBA",
+    "DABC",
+    "DACB",
+    "DBAC",
+    "DBCA",
+    "DCAB",
+    "DCBA"
+  ],
+  "pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ]
+  ],
+  "methods": [
+    "pair",
+    "ball"
+  ],
+  "snr_db": [
+    10,
+    20,
+    30
+  ],
+  "regimes": [
+    "generic",
+    "near_rank1",
+    "rank1"
+  ],
+  "groups": {
+    "generic": {
+      "10": {
+        "pair": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 138,
+          "singletons": 138,
+          "abstentions": 1062,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 15.77,
+          "median_size": 24.0,
+          "size_histogram": {
+            "1": 138,
+            "2": 108,
+            "4": 61,
+            "6": 131,
+            "8": 1,
+            "12": 61,
+            "24": 700
+          }
+        },
+        "ball": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 7,
+          "singletons": 7,
+          "abstentions": 1193,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 22.1625,
+          "median_size": 24.0,
+          "size_histogram": {
+            "1": 7,
+            "2": 23,
+            "4": 12,
+            "6": 67,
+            "8": 2,
+            "12": 5,
+            "24": 1084
+          }
+        },
+        "forced": {
+          "correct": 749,
+          "compatible": 749,
+          "near_ties": 0
+        }
+      },
+      "20": {
+        "pair": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 887,
+          "singletons": 887,
+          "abstentions": 313,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 4,
+          "mean_size": 2.6875,
+          "median_size": 1.0,
+          "size_histogram": {
+            "1": 887,
+            "2": 126,
+            "4": 57,
+            "6": 55,
+            "8": 5,
+            "12": 16,
+            "24": 54
+          }
+        },
+        "ball": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 351,
+          "singletons": 351,
+          "abstentions": 849,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 8.125833333333333,
+          "median_size": 4.0,
+          "size_histogram": {
+            "1": 351,
+            "2": 228,
+            "4": 117,
+            "6": 176,
+            "8": 5,
+            "12": 31,
+            "24": 292
+          }
+        },
+        "forced": {
+          "correct": 1156,
+          "compatible": 1156,
+          "near_ties": 0
+        }
+      },
+      "30": {
+        "pair": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 1164,
+          "singletons": 1164,
+          "abstentions": 36,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 16,
+          "mean_size": 1.3666666666666667,
+          "median_size": 1.0,
+          "size_histogram": {
+            "1": 1164,
+            "2": 16,
+            "6": 2,
+            "24": 18
+          }
+        },
+        "ball": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 1052,
+          "singletons": 1052,
+          "abstentions": 148,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 1.3933333333333333,
+          "median_size": 1.0,
+          "size_histogram": {
+            "1": 1052,
+            "2": 101,
+            "4": 20,
+            "6": 15,
+            "8": 1,
+            "12": 2,
+            "24": 9
+          }
+        },
+        "forced": {
+          "correct": 1197,
+          "compatible": 1197,
+          "near_ties": 0
+        }
+      }
+    },
+    "near_rank1": {
+      "10": {
+        "pair": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 0,
+          "singletons": 0,
+          "abstentions": 1200,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 20.401666666666667,
+          "median_size": 24.0,
+          "size_histogram": {
+            "2": 85,
+            "6": 136,
+            "24": 979
+          }
+        },
+        "ball": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 0,
+          "singletons": 0,
+          "abstentions": 1200,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 23.073333333333334,
+          "median_size": 24.0,
+          "size_histogram": {
+            "2": 17,
+            "6": 41,
+            "24": 1142
+          }
+        },
+        "forced": {
+          "correct": 178,
+          "compatible": 178,
+          "near_ties": 0
+        }
+      },
+      "20": {
+        "pair": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 1,
+          "singletons": 1,
+          "abstentions": 1199,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 1,
+          "mean_size": 10.884166666666667,
+          "median_size": 6.0,
+          "size_histogram": {
+            "1": 1,
+            "2": 491,
+            "6": 273,
+            "24": 435
+          }
+        },
+        "ball": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 0,
+          "singletons": 0,
+          "abstentions": 1200,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 15.855,
+          "median_size": 24.0,
+          "size_histogram": {
+            "2": 234,
+            "6": 257,
+            "24": 709
+          }
+        },
+        "forced": {
+          "correct": 483,
+          "compatible": 483,
+          "near_ties": 0
+        }
+      },
+      "30": {
+        "pair": {
+          "channels": 1200,
+          "full_family_covered": 1199,
+          "generating_order_included": 1199,
+          "exact_set_recovery": 82,
+          "singletons": 83,
+          "abstentions": 1117,
+          "wrong_label_singletons": 1,
+          "structurally_false_singletons": 1,
+          "raw_conflicts": 6,
+          "mean_size": 4.8325,
+          "median_size": 2.0,
+          "size_histogram": {
+            "1": 83,
+            "2": 811,
+            "4": 5,
+            "6": 175,
+            "24": 126
+          }
+        },
+        "ball": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 4,
+          "singletons": 4,
+          "abstentions": 1196,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 7.793333333333333,
+          "median_size": 2.0,
+          "size_histogram": {
+            "1": 4,
+            "2": 653,
+            "4": 2,
+            "6": 275,
+            "24": 266
+          }
+        },
+        "forced": {
+          "correct": 712,
+          "compatible": 712,
+          "near_ties": 0
+        }
+      }
+    },
+    "rank1": {
+      "10": {
+        "pair": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 113,
+          "singletons": 0,
+          "abstentions": 1200,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 19.843333333333334,
+          "median_size": 24.0,
+          "size_histogram": {
+            "2": 113,
+            "6": 139,
+            "24": 948
+          }
+        },
+        "ball": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 20,
+          "singletons": 0,
+          "abstentions": 1200,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 22.598333333333333,
+          "median_size": 24.0,
+          "size_histogram": {
+            "2": 20,
+            "6": 69,
+            "24": 1111
+          }
+        },
+        "forced": {
+          "correct": 223,
+          "compatible": 455,
+          "near_ties": 0
+        }
+      },
+      "20": {
+        "pair": {
+          "channels": 1200,
+          "full_family_covered": 1199,
+          "generating_order_included": 1199,
+          "exact_set_recovery": 477,
+          "singletons": 1,
+          "abstentions": 1199,
+          "wrong_label_singletons": 1,
+          "structurally_false_singletons": 1,
+          "raw_conflicts": 3,
+          "mean_size": 11.185833333333333,
+          "median_size": 6.0,
+          "size_histogram": {
+            "1": 1,
+            "2": 477,
+            "6": 270,
+            "24": 452
+          }
+        },
+        "ball": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 218,
+          "singletons": 0,
+          "abstentions": 1200,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 16.373333333333335,
+          "median_size": 24.0,
+          "size_histogram": {
+            "2": 218,
+            "6": 242,
+            "24": 740
+          }
+        },
+        "forced": {
+          "correct": 436,
+          "compatible": 861,
+          "near_ties": 0
+        }
+      },
+      "30": {
+        "pair": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 916,
+          "singletons": 0,
+          "abstentions": 1200,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 7,
+          "mean_size": 4.881666666666667,
+          "median_size": 2.0,
+          "size_histogram": {
+            "2": 916,
+            "6": 155,
+            "24": 129
+          }
+        },
+        "ball": {
+          "channels": 1200,
+          "full_family_covered": 1200,
+          "generating_order_included": 1200,
+          "exact_set_recovery": 666,
+          "singletons": 0,
+          "abstentions": 1200,
+          "wrong_label_singletons": 0,
+          "structurally_false_singletons": 0,
+          "raw_conflicts": 0,
+          "mean_size": 7.8,
+          "median_size": 2.0,
+          "size_histogram": {
+            "2": 666,
+            "6": 266,
+            "24": 268
+          }
+        },
+        "forced": {
+          "correct": 531,
+          "compatible": 1087,
+          "near_ties": 0
+        }
+      }
+    }
+  },
+  "python": "3.12.15",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1"
+}

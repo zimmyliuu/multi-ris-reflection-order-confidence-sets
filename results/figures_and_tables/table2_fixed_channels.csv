@@ -1,0 +1,7 @@
+link_regime,fixed_channel_id,false_edge_count,any_false_edge_count,missing_family_count,exact_family_count,mean_set_size
+Generic,1,51,35,0,1965,1.40
+Generic,2,57,29,0,1971,1.33
+Near rank one,1,7,7,2,34,2.04
+Near rank one,2,17,15,1,3,2.15
+Rank one,1,0,0,0,0,20.09
+Rank one,2,42,31,10,1970,2.21

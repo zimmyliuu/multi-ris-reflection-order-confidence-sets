@@ -1,0 +1,11 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.npz binary
+*.pdf binary
+# Study manifests authenticate the exact archived bytes on every platform.
+work/** -text
+outputs/** -text
+results/** -text
